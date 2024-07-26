@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+    color: #fff;
+    text-align: center;
+}
+/*nav*/
+img{
+    height: 50px;
+    width: 150px;
+}
+.lien p{
+    color:white;
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-top: 25px;
+
+}
+.lien{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:25px
+}
+#service{
+    color:yellow;
+}
+.about:hover{
+    color:yellow;
+}
+/*fin nav*/
+.image p{
+    color:white;
+    font-size: 45px;
+    margin: 0;
+    text-align: center;
+    padding-top: 350px;
+    
+}
+.image{
+    background-image: url('home.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+button {
+    margin-top: 300px;
+    margin-right: 350px;
+    padding: 25px;
+    border-radius: 25px;
+    background-color:#FFEB3B;
+    border-color: transparent;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(171, 171, 3);
+    color: white;
+}
+
+/*fin image*/
