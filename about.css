@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    margin:0px;
+    overflow-x: hidden;
+}
+/*nav*/
+img{
+    height: 50px;
+    width: 150px;
+}
+.lien p{
+    color:white;
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-top: 25px;
+
+}
+.lien{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:25px
+}
+#contact{
+    color:yellow;
+}
+.about:hover{
+    color:yellow;
+}
+/*fin nav*/
+/*image*/
+.image p{
+    color:white;
+    font-size: 45px;
+    margin: 0;
+    text-align: center;
+    padding-top: 350px;
+    
+}
+.image{
+    background-image: url('table.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.aboutimage{
+    width: 100%;
+    height: 100px;
+    background-image: url("aboutimag.jpg");
+    background-size: 100% 100%;
+}
+.table img{
+    height: 400px;
+    width: 700px;
+    margin-top: 0px;
+}
+.text h2{
+    color: white;
+    padding: 60px;
+}
+.text p{
+    color:white;
+    
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:25px;
+
+}
+/*fin image*/
+.leschef img{
+    height: 150px;
+    width: 150px;
+}
+.leschef h2{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.leschef p{
+    color:white;
+}
+section.leschef {
+    margin-top: 50px;
+}
+.leschef{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:25px;
+}
+.leschef div{
+       border: 1px solid transparent; 
+}
+.chefcard:hover{
+    border: 1px solid yellow;
+}
+.leschef div:focus{ 
+    border-color: yellow;
+        outline: none;}
+/*footer*/
+footer img{
+    width: 30px;
+    height: 30px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 150px;
+}
+
+footer h2{
+    color:white;
+    padding-bottom: 50px;
+
+}
+footer p{
+    color: white;
+    padding-bottom: 50px;
+}
+.copyright{
+    padding-top:100px;
+    padding-bottom: 50px;
+}
+footer p{
+    line-height: 1.6;
+}

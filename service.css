@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+    color: #fff;
+    text-align: center;
+}
+/*nav*/
+img{
+    height: 50px;
+    width: 150px;
+}
+.lien p{
+    color:white;
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-top: 25px;
+
+}
+.lien{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:25px
+}
+#service{
+    color:yellow;
+}
+.about:hover{
+    color:yellow;
+}
+/*fin nav*/
+/*main*/
+/*image*/
+.image p{
+    color:white;
+    font-size: 45px;
+    margin: 0;
+    text-align: center;
+    padding-top: 350px;
+    
+}
+.image{
+    background-image: url('table.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+/*fin image*/
+main{
+    background-color:#c7b106;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+main img {
+    height: 100px;
+}
+main h2{
+    color: black;
+}
+main p{
+    color:black
+}
+/*fin main*/
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-item {
+    background-color:black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 50%;
+    height: 180px;
+}
+
+.menu-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.menu-item .price {
+    font-size: 1.1em;
+    color: #ffdd57;
+}
+
+.menu-item button {
+    background-color:black;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}
+
+.menu-item button:hover {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+}
+/*footer*/
+footer img{
+    width: 30px;
+    height: 30px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 150px;
+
+}
+
+.copyright{
+    padding-top:100px;
+    padding-bottom: 50px;
+}
+/*fin footer*/
+ 
